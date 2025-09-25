@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(
+      ellipse 80% 60% at 70% 20%,
+      rgba(109, 250, 255, 0.85),
+      transparent 68%
+    ),
+    radial-gradient(ellipse 70% 60% at 20% 80%, rgba(11, 127, 204, 0.75), transparent 68%),
+    radial-gradient(ellipse 60% 50% at 60% 65%, rgba(130, 220, 255, 0.98), transparent 68%),
+    radial-gradient(ellipse 65% 40% at 50% 60%, rgba(120, 190, 255, 0.3), transparent 68%),
+    linear-gradient(180deg, #ebecff 0%, #e2e8fd 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
