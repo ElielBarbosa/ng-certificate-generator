@@ -1,0 +1,114 @@
+.certificate-title-container {
+  text-align: center;
+  margin-bottom: 32px;
+  height: 60px;
+  gap: 4px;
+  margin-bottom: 32px;
+}
+.certificate-title {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-bottom: 4px;
+}
+.certificate-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555;
+}
+
+.card {
+  gap: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 672px;
+  border: 1px solid #dddddd98;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  background: #ffffff54;
+}
+.card > h2 {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 16px;
+  color: #1a2856;
+}
+/*Form*/
+
+.box-input {
+  display: flex;
+  flex-direction: column;
+}
+.box-input > div {
+  display: flex;
+  gap: 8px;
+}
+.form-control {
+  padding: 8px 12px;
+  width: 100%;
+  border: 1px solid #e2e8f0;
+  background: #ffffff94;
+  border-radius: 8px;
+  line-height: 24px;
+  font-size: 16px;
+  min-width: 200px;
+}
+.form-control:focus {
+  outline: 1px solid #3b5ac2;
+}
+.form-label {
+  font-weight: 500;
+  font-size: 14px;
+  font-weight: 20px;
+  margin-bottom: 8px;
+  color: #1a2856;
+}
+.button-add {
+  background-color: red;
+}
+
+/**/
+
+.ativity-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  gap: 8px;
+}
+.item-list {
+  width: 100%;
+  border: 1px solid #e2e8f0;
+  background-color: #f4f6f9e0;
+  border-radius: 8px;
+  padding: 16px;
+  gap: 12px;
+}
+.item-list > hr {
+  margin: 12px 0;
+  border: 0.5px solid #e2e8f0;
+  outline: none;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.item > img {
+  width: 24px;
+  padding: 4px;
+  cursor: pointer;
+}
+.item > img:hover {
+  width: 24px;
+  padding: 4px;
+  background-color: #b3b3b3c5;
+  cursor: pointer;
+}

@@ -6,6 +6,7 @@ import { SecondaryButton } from './_components/secondary-button/secondary-button
 import { ItemCertificate } from './_components/item-certificate/item-certificate';
 import { BaseUi } from './_components/base-ui/base-ui';
 import { Certificates } from './pages/certificates/certificates';
+import { CertificateForm } from './pages/certificate-form/certificate-form';
 
 @Component({
   selector: 'app-root',
@@ -17,6 +18,7 @@ import { Certificates } from './pages/certificates/certificates';
     ItemCertificate,
     BaseUi,
     Certificates,
+    CertificateForm,
   ],
   templateUrl: './app.html',
   styleUrl: './app.css',
