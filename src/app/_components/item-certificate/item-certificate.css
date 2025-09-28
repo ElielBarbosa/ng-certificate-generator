@@ -6,7 +6,8 @@
   border: 1px solid #dddddd98;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(206, 205, 205, 0.1);
-  margin: 16px 0;
+  margin: 12px 0;
+  background-color: aliceblue;
 }
 .data-card {
   display: flex;
