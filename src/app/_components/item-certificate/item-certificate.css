@@ -7,7 +7,7 @@
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(206, 205, 205, 0.1);
   margin: 12px 0;
-  background-color: aliceblue;
+  background-color: rgba(240, 248, 255, 0.541);
 }
 .data-card {
   display: flex;
@@ -17,4 +17,7 @@
   font-size: 18px;
   color: #1a2856;
   margin-bottom: 4px;
+}
+.text-date {
+  color: #6e6e6e;
 }
