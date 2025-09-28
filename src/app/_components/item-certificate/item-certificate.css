@@ -1,0 +1,19 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #dddddd98;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(206, 205, 205, 0.1);
+  margin: 16px 0;
+}
+.data-card {
+  display: flex;
+  flex-direction: column;
+}
+.data-card h2 {
+  font-size: 18px;
+  color: #1a2856;
+  margin-bottom: 4px;
+}
