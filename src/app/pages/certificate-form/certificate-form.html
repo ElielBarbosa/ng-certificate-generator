@@ -6,15 +6,26 @@
 
   <div class="card">
     <h2>Novo Certificado</h2>
-    <div class="box-input">
-      <label class="form-label">Nome:</label>
-      <input type="text" class="form-control" name="" id="" placeholder="Nome do aluno" />
+    <div class="box-input custom-input-group">
+      <label for="nome" class="form-label">Nome:</label>
+      <input type="text" class="form-control" name="" id="" placeholder="Nome do aluno" id="nome" />
+      <div class="error-messager">
+        <img src="icons/WarningCircle.svg" alt="" srcset="" />
+        <p>Error messager</p>
+      </div>
     </div>
 
-    <div class="box-input">
-      <label class="form-label">Atividade:</label>
+    <div class="box-input custom-input-group">
+      <label for="atividade" class="form-label">Atividade:</label>
       <div>
-        <input type="text" class="form-control" name="" id="" placeholder="Atividade exercida" />
+        <input
+          type="text"
+          class="form-control"
+          name=""
+          id=""
+          placeholder="Atividade exercida"
+          id="atividade"
+        />
         <app-secondary-button></app-secondary-button>
       </div>
     </div>

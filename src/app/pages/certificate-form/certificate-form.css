@@ -10,7 +10,6 @@
   font-size: 24px;
   letter-spacing: 0;
   line-height: 36px;
-  margin-bottom: 4px;
 }
 .certificate-description {
   font-weight: 400;
@@ -37,7 +36,7 @@
   font-size: 18px;
   letter-spacing: 0;
   line-height: 28px;
-  margin-bottom: 16px;
+
   color: #1a2856;
 }
 /*Form*/
@@ -61,7 +60,10 @@
   min-width: 200px;
 }
 .form-control:focus {
-  outline: 1px solid #3b5ac2;
+  outline: 2px solid #3b5ac2;
+}
+.curtom-input-group:has(.form-control:focus) .form-label {
+  color: #3b5ac2;
 }
 .form-label {
   font-weight: 500;
@@ -111,4 +113,23 @@
   padding: 4px;
   background-color: #b3b3b3c5;
   cursor: pointer;
+}
+
+.error-messager {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+.error-messager img {
+  width: 16px;
+}
+.error-messager p {
+  font-size: 14px;
+  font-weight: 500;
+  color: red;
+}
+
+.custom-input-group:has(.error-messager) > label {
+  color: red;
 }

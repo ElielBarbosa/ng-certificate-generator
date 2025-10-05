@@ -1,0 +1,117 @@
+.certificate-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+.certificate-options a {
+  color: #64748b;
+  font-size: 14px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.certificate-options a img {
+  width: 20px;
+}
+
+/*Certificado*/
+.cetificate-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  width: 100%;
+  height: calc(100vh - 200px);
+}
+.certificate {
+  margin-top: 32px;
+  background: url('../../../../public/images/Certificate_BG.png') no-repeat center;
+  background-size: cover;
+
+  border-radius: 12px;
+  width: 800px;
+  height: 550px;
+}
+
+.content-certificate {
+  width: 700px;
+  height: 450px;
+  margin: 50px auto;
+  background-color: #ebeef1;
+  border-radius: 8px;
+  position: relative;
+}
+.certificate-medal {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+}
+.title-container {
+  text-align: center;
+  height: 100%;
+}
+/*data certificado*/
+.data-content {
+  padding: 40px 20px 0px 20px;
+}
+.title-container {
+  padding: 24px 20px 20px 20px;
+}
+.title {
+  line-height: 160%;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1e293b;
+  text-transform: uppercase;
+  padding-bottom: 12px;
+}
+.data-contentent {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.name-aluno {
+  font-size: 56px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+.data-contentent > span {
+  text-align: center;
+  line-height: 160%;
+  font-size: 12px;
+  padding: 8px;
+}
+.data-contentent > p {
+  line-height: 160%;
+  text-align: center;
+  font-size: 14px;
+  display: inline-block;
+  max-width: 430px;
+}
+
+/*Assinatura e data de emissao*/
+.certificate-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px;
+  bottom: 20px;
+  width: 100%;
+  padding: 40px 0;
+}
+.date-emission {
+  font-size: 12px;
+  color: #475569;
+  font-weight: 500;
+}
+.certificate-signature {
+  width: 54px;
+  height: 50px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
