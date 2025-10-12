@@ -1,0 +1,47 @@
+[33mcommit 7904f71bfdff88023ab50f932ba1b25164b6a3d8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Eliel Barbosa <elielbarbosads@gmail.com>
+Date:   Sun Oct 5 16:15:31 2025 -0300
+
+    feat(page): Implementar página de certificado.
+
+[33mcommit 567836c42bdea1691b2980f6c5ad8384c17ba1eb[m
+Author: Eliel Barbosa <elielbarbosads@gmail.com>
+Date:   Sun Sep 28 16:31:02 2025 -0300
+
+    feat(page): Implementa página de formulário de certificados
+
+[33mcommit faaf6f946a253112a6ad3b23b9edb73c0109a0e0[m
+Author: Eliel Barbosa <elielbarbosads@gmail.com>
+Date:   Sun Sep 28 00:45:16 2025 -0300
+
+    feat(page): Implementar página de certificados/com certificados
+
+[33mcommit a93e51b9fa96be20a266f08a079d86c867ff2db5[m
+Author: Eliel Barbosa <elielbarbosads@gmail.com>
+Date:   Sun Sep 28 00:27:24 2025 -0300
+
+    feat(page): Implementar página de certificados/sem-certificados
+
+[33mcommit 4a0e8cdfd432105bf3b2b1bedbf254e310f5f742[m
+Author: Eliel Barbosa <elielbarbosads@gmail.com>
+Date:   Sat Sep 27 22:15:52 2025 -0300
+
+    feat(ui): Implementar o baseUi
+
+[33mcommit 3b203a6337172f714d745e97cdff966c8eedf929[m
+Author: Eliel Barbosa <elielbarbosads@gmail.com>
+Date:   Sat Sep 27 22:02:39 2025 -0300
+
+    feat(ui): Criar componentes reutilizáveis
+
+[33mcommit 81fc7bca4d3c8d06b2e85081ae4cb47ca808a0a8[m
+Author: Eliel Barbosa <elielbarbosads@gmail.com>
+Date:   Thu Sep 25 13:15:15 2025 -0300
+
+    feat(ui): add navbar container
+
+[33mcommit 9046075a05e5c80f3603ab968a190d4df28a0e6b[m
+Author: Eliel Barbosa <elielbarbosads@gmail.com>
+Date:   Wed Sep 24 14:55:26 2025 -0300
+
+    Initial commit
